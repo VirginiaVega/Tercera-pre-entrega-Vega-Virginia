@@ -1,10 +1,5 @@
 from django import forms 
 
-#FORMULARIO ORIGINAL QUE FUNCIONA:
-# class RubroFormulario(forms.Form):
-#     codigo = forms.CharField(max_length=10)
-#     descripcion = forms.CharField(max_length=255)
-
 class RubroFormulario(forms.Form):
     codigo = forms.CharField(max_length=10, widget=forms.TextInput(attrs={'class': 'form-control'}))
     descripcion = forms.CharField(max_length=255, widget=forms.TextInput(attrs={'class': 'form-control'}))

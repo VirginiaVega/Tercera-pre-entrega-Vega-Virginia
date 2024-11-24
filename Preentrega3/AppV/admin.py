@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import rubro, articulo, cliente, proveedor
+from .models import Rubro, Articulo, Cliente, Proveedor
 
 # Register your models here.
-admin.site.register(rubro)
-admin.site.register(articulo)
-admin.site.register(cliente)
-admin.site.register(proveedor)
+admin.site.register(Rubro)
+admin.site.register(Articulo)
+admin.site.register(Cliente)
+admin.site.register(Proveedor)
